@@ -66,7 +66,7 @@ be run (just by smashing `x`) or for less commonly used functionality.
     "hkupty/iron.nvim", -- repl provider
     -- "akinsho/toggleterm.nvim", -- alternative repl provider
     -- "benlubas/molten-nvim", -- alternative repl provider
-    "anuvyklack/hydra.nvim",
+    "nvimtools/hydra.nvim",
   },
   event = "VeryLazy",
   config = function()
@@ -77,7 +77,7 @@ be run (just by smashing `x`) or for less commonly used functionality.
 ```
 
 ## Enabling Mini.hipatterns cell highlighting
-The lines delimiting the code cells can have pretty highlighting if you install 
+The lines delimiting the code cells can have pretty highlighting if you install
 [mini.hipatterns](https://github.com/echasnovski/mini.hipatterns). To activate them you will
 have to add an entry into the `highlighters` option of 'mini.hipatterns'. If you are using
 [lazy.nvim](https//www.github.com/folke/lazy.nvim) `minihipatterns_spec` and your __only__
@@ -153,7 +153,7 @@ Any options that are not specified when calling `setup` will take on their defau
   },
   -- The repl plugin with which to interface
   -- Current options: "iron" for iron.nvim, "toggleterm" for toggleterm.nvim,
-  -- "molten" for molten-nvim or "auto" which checks which of the above are 
+  -- "molten" for molten-nvim or "auto" which checks which of the above are
   -- installed
   repl_provider = "auto",
   -- Syntax based highlighting. If you don't want to install mini.hipattners or
